@@ -1,0 +1,81 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* Blog Post Styles */
+.post {
+    background: #fafafa;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+}
+
+.post h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.post p {
+    font-size: 16px;
+    color: #555;
+}
+
+.post small {
+    display: block;
+    margin-top: 15px;
+    color: #999;
+}
+
+/* Link to Create New Post */
+.new-post-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.new-post-link:hover {
+    background-color: #4cae4c;
+    text-decoration: underline;
+}
+
+/* Horizontal Rule */
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ddd;
+    margin: 20px 0;
+}
